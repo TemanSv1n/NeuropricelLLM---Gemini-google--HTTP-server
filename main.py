@@ -66,7 +66,7 @@ class GeminiManager:
             }
 
             model = genai.GenerativeModel(
-                model_name='gemini-1.5-flash',
+                model_name='gemini-2.5-flash-lite',
                 safety_settings=safety_settings,
                 system_instruction=f"{personality}\n\n{response_format}"
             )
